@@ -1,5 +1,14 @@
 # C-QUARK-Docker
-Docker image for the C-QUARK ab initio protein structure prediction software from the U. Mich Zhang Lab.
+Docker image for the C-QUARK _ab initio_ protein structure prediction software from the U. Mich Zhang Lab.
+
+## DockerHub
+
+This container image is available from DockerHub: hub.docker.com/r/cford38/cquark
+
+Pull Image to Local Machine:
+```
+docker pull cford38/cquark:latest
+```
 
 
 ## Build Locally
@@ -9,8 +18,15 @@ docker build -t cquark .
 
 ## Run Locally
 ```
+## If you pulled from DockerHub, use:
+docker run --name cquark -d cford38/cquark
+
+## If you built the image locally, use:
 docker run --name cquark -d cquark
+
+## Access the command prompt here and navigate to the program's director
 docker exec -it cquark /bin/bash
+cd home/cquark-user/
 ```
 
 ## How to Run
