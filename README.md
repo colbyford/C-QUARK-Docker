@@ -62,4 +62,4 @@ Other arguments:
 
 
 ## About C-QUARK
-C-QUARK was developed by the Zhang Lab at the University of Michigan. To learn more about C-QUARK, visit[https://zhanglab.ccmb.med.umich.edu/C-QUARK/](https://zhanglab.ccmb.med.umich.edu/C-QUARK/).
+C-QUARK is an _ab initio_ protein structure prediction software developed by the Zhang Lab at the University of Michigan. To learn more about C-QUARK, visit [https://zhanglab.ccmb.med.umich.edu/C-QUARK/](https://zhanglab.ccmb.med.umich.edu/C-QUARK/).
