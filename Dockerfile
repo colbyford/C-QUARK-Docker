@@ -26,6 +26,6 @@ RUN cd /home && \
     wget https://zhanglab.ccmb.med.umich.edu/C-QUARK/download/C-QUARK-1.0.tar.bz2 && \
     tar -xvf C-QUARK-1.0.tar.bz2 && \
     rm C-QUARK-1.0.tar.bz2 && \
-    mkdir ITILIB && \
-    cp C-QUARK-1.0/download_lib.pl ITILIB/ && \
-    perl ITILIB/download_lib.pl -libdir /home/cquark-user/ITLIB
+    mkdir ITLIB && \
+    cp C-QUARK-1.0/download_lib.pl ITLIB/ && \
+    perl ITLIB/download_lib.pl -libdir /home/cquark-user/ITLIB
